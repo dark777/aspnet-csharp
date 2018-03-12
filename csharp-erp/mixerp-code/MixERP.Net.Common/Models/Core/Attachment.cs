@@ -1,0 +1,9 @@
+﻿namespace MixERP.Net.Common.Models.Core
+{
+    public class Attachment
+    {
+        public string Comment { get; set; }
+        public string FilePath { get; set; }
+        public string OriginalFileName { get; set; }
+    }
+}
